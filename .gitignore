@@ -1,6 +1,5 @@
-/.idea/
-*.iml
-*.png
-/target/
-/runners/
+target/
+.idea/
+.txt
+.jpg
 
