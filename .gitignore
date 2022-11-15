@@ -2,3 +2,5 @@
 *.iml
 *.png
 /target/
+/runners/
+
