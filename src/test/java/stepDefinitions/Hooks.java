@@ -20,7 +20,7 @@ public class Hooks {
     failed olan scenario icin screenshoot almasi amaciyla
     @After method'u kullanacagiz
      */
-
+/*
     @After
     public void tearDown(Scenario scenario) {
         final byte[] screenshot = ((TakesScreenshot)
@@ -28,8 +28,10 @@ public class Hooks {
         if (scenario.isFailed()) {
             scenario.attach(screenshot, "image/png", "screenshots");
         }
-        Driver.closeDriver();
+        //Driver.closeDriver();
     }
+
+ */
 
 }
 
